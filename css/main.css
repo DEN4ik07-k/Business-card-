@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./../img/fon.jpg);
+    background-repeat:no-repeat ;
+    background-size: 100%;
+}
+.container{
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+/* ----------HEADER START------------- */
+
+.header{
+    font-family: 'Playfair Display', serif;
+    margin-top: 88px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    font-size: 44px;
+    line-height: 40px;
+    margin-bottom: 115px;
+    transition: color .7s ease-in;
+    cursor: pointer;
+}
+.header:hover{
+    color: rgb(208, 208, 122);
+}
+
+/* -----------HEADER END-------------- */
+
+/* ----------INFO START---------------- */
+
+.info{
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 25px;
+    align-items: flex-end;
+    display: inline-block;
+    margin-bottom: 180px;
+}
+.info__title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    line-height: 42px;
+    letter-spacing: .2em;
+    margin-bottom: 30px;
+}
+.info__text{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .3em;
+}
+
+/* ---------INFO END-------------- */
+
+/* -------CONTACTS START------------- */
+.footer{
+    display: block;
+}
+.contacts{
+    display: block;
+}
+.phone{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    transition: color .7s ease-in;
+    cursor: pointer;
+}
+.phone:hover{
+    color: rgb(208, 208, 122);
+    text-decoration: underline;
+}
+.mail{
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    transition: color .7s ease-in;
+    cursor: pointer;
+}
+.mail:hover{
+    color: rgb(208, 208, 122);
+    text-decoration: underline;
+
+}
+.adress{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* --------CONTACTS END------------ */
